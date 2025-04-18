@@ -1,6 +1,41 @@
+💬 Bulk Email Sender in C#
+About
+This is a C# console application for sending bulk emails using multiple SMTP configurations. It supports batch-based email sending, randomized subject/body selection, logging of sent emails, and respects per-day sending limits.
+
+How It Works
+SMTP configurations are read from smtpConfig.txt
+
+Emails are sent in batches, observing the daily and batch limits per SMTP
+
+Subjects and bodies are selected randomly from EmailSubjects.txt and EmailBodies.txt
+
+Sent emails are logged in SentEmails.txt to avoid duplicates
+
+Email usage per SMTP is tracked in SmtpUsageLog.txt
+
+Required Files
+smtpConfig.txt – SMTP details in the format:
+Host,Port,Username,Password,MaxPerBatch,MaxPerDay,Delay
+
+EmailSubjects.txt – One subject per line
+
+EmailBodies.txt – Email bodies separated by ,,,
+
+RecipientEmails.txt – List of recipient emails, one per line
+
+SentEmails.txt – Automatically updated list of sent emails
+
+SmtpUsageLog.txt – Automatically created to track daily usage
+
+Notes
+Emails are added to BCC to send one batch at once.
+
+Actual sending is commented out (client.Send() is not active).
+
+There is a fixed 20-second delay between batches (adjustable in the code).
 
 
-
+<a href="https://ghayatltd.com/ar/limited-liability-company-llc/" >تاسيس شركه في امريكا </a>
 
 ghayat ltd
 👉 غايات

@@ -1,3 +1,22 @@
+If you want to create a clickable link on the word "Ghayat" that leads to your website https://ghayatltd.com/ar, here are a few ways to do it:
+
+1. HTML Code (for websites or email templates):
+html
+نسخ
+تحرير
+<a href="https://ghayatltd.com/ar" target="_blank">Ghayat</a>
+2. Markdown Format (used in some platforms like GitHub or Notion):
+markdown
+نسخ
+تحرير
+[Ghayat](https://ghayatltd.com/ar)
+This will display as: 👉 Ghayat
+
+3. Plain Text with Link:
+Ghayat: https://ghayatltd.com/ar
+
+
+
 ghayat ltd
 👉 غايات
 <a href="https://ghayatltd.com/ar" >غايات </a>

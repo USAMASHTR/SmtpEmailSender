@@ -1,0 +1,26 @@
+# Ignore WordPress core files
+wp-admin/
+wp-includes/
+
+# Ignore themes and plugins so they can be managed by Composer
+wp-content/plugins/
+wp-content/themes/
+
+# Ignore other WordPress files
+wp-*.php
+index.php
+xmlrpc.php
+license.txt
+readme.html
+
+# Ignore user-generated content
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/debug.log
+
+# Ignore Composer dependencies
+vendor/
+
+# Ignore downloaded files
+*.tar.gz
+*.zip
